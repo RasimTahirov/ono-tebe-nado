@@ -53,10 +53,6 @@
     line-height: 135%;
 }
 
-.header__address {
-    font-style: normal;
-}
-
 /* Cover */
 
 .cover {
@@ -86,27 +82,27 @@
     font-size: 100px; 
     font-weight: 700; 
     font-style: normal;
-    line-height: 100px;
     text-transform: uppercase;
     padding-top: 165px;
     letter-spacing: 30px;
     display: grid;
     gap: 20px;
+    line-height: 115px;
 }
 
 .aligned-text {
-    line-height: 115px;
+    display: flex;
 }
 
 .aligned-text_center {
     justify-content: center;
-    display: flex;
+    line-height: 100px;
 }
 
 .aligned-text_right {
     justify-content: end;
-    display: flex;
     letter-spacing: 30px;
+    line-height: 100px;
 }
 
 .letter-spacing-extended {
@@ -226,6 +222,7 @@ article {
     display: flex;
     min-width: 1340px;
     column-gap: 25px;
+    gap: 25px;
     flex-wrap: wrap;
     padding-bottom: 30px;
 }
