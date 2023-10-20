@@ -44,7 +44,7 @@
     margin: auto;
 }
 
-.address {
+.container__address {
     display: grid;
     font-style: normal;
     justify-content: flex-end;
@@ -87,11 +87,11 @@
     letter-spacing: 30px;
     display: grid;
     gap: 20px;
-    line-height: 115px;
 }
 
 .aligned-text {
     display: flex;
+    line-height: 115px;
 }
 
 .aligned-text_center {
